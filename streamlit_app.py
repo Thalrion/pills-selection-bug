@@ -22,4 +22,4 @@ st.session_state.pill2 = st.pills(
 )
 
 st.caption("Example Video")
-st.video("streamlit-streamlit_app-2025-01-03-21-01-33.webm")
+st.video("streamlit-streamlit_app-2025-01-03-21-01-02.webm")
