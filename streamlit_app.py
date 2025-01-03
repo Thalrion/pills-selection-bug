@@ -8,7 +8,7 @@ if "pill2" not in st.session_state:
     st.session_state.pill2 = "Option 2"
 
 st.session_state.pill1 = st.pills(
-    "Pills 1 with default randomy resets after selection",
+    "Pills 1 with default randomly resets after selection",
     options=pills_options,
     selection_mode="single",
     key="public_selection",
@@ -21,3 +21,6 @@ st.session_state.pill2 = st.pills(
     selection_mode="single",
 )
 
+st.caption("Example Video")
+# streamlit-streamlit_app-2025-01-03-21-01-33.webm
+st.video("streamlit-streamlit_app-2025-01-03-21-01-33.webm")
